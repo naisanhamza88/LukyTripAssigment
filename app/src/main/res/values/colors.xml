@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+
+    <color name="dark">#0E5382</color>
+    <color name="primary">#0b6696</color>
+    <color name="baby_blue">#2C98D4</color>
+    <color name="primary_50">#7596AD</color>
+    <color name="primary_40">#92bad6</color>
+    <color name="mainBackGround">#FFFFFF</color>
+    <color name="pressedGreen">#DAFF00</color>
+    <color name="colorSecond">#BFD730</color>
+    <color name="green">#94A724</color>
+
+
+    <color name="black">#000000</color>
+    <color name="hintColor">#C8C8D3</color>
+    <color name="editTextBack">#F0F1F5</color>
+    <color name="colorSecondaryText">#2B2B2B</color>
+    <color name="white">#FFFFFF</color>
+    <color name="light_red">#D16475</color>
+    <color name="red">#FF0000</color>
+    <color name="dark_red">#7e0000</color>
+
+    <color name="grey_3">#f7f7f7</color>
+    <color name="grey_5">#F0F1F5</color>
+    <color name="grey_10">#e6e6e6</color>
+    <color name="grey_20">#cccccc</color>
+    <color name="grey_60">#666666</color>
+    <color name="grey_80">#37474F</color>>
+    <color name="grey_90">#263238</color>
+    <color name="grey_40">#999999</color>
+</resources>

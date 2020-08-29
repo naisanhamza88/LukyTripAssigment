@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Luckytrip Assingment</string>
+    <string name="room_name">Room Name</string>
+    <string name="room_description">Room Description</string>
+    <string name="max_occupancy">Max Occupancy:</string>
+    <string name="cancel">Cancel</string>
+    <string name="select">Select</string>
+    <string name="rooms">Rooms</string>
+    <string name="home">Home Page</string>
+</resources>
