@@ -30,6 +30,7 @@ public class Rooms extends BaseEntity {
     @SerializedName("photos")
     private final List<String> photos;
 
+
     public Rooms(int roomId, String name, String roomDescription, int numberOfRoomsLeft,
                  int maxOccupancy, Price price, List<BedConfigurations> bedConfigurations,
                  List<String> photos) {

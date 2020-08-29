@@ -25,6 +25,8 @@ import com.clickit.luckytripassingment.ui.main_page.MainActivity;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.Objects;
 
 public class RoomAdapter extends RecyclerView.Adapter<RoomAdapter.RoomViewHolder> {
@@ -40,6 +42,11 @@ public class RoomAdapter extends RecyclerView.Adapter<RoomAdapter.RoomViewHolder
     public void updateAdapter(ArrayList<Rooms> list) {
         mDataSet.clear();
         mDataSet.addAll(list);
+        Collections.sort(mDataSet, (Comparator<Rooms>) (o1, o2) -> {
+            Integer MaxOccupancy1 = o1.getMaxOccupancy();
+            Integer MaxOccupancy2 = o2.getMaxOccupancy();
+            return MaxOccupancy1.compareTo(MaxOccupancy2);
+        });
         notifyDataSetChanged();
     }
 

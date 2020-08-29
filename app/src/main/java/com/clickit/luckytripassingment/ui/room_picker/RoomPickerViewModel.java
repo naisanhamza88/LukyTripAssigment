@@ -9,6 +9,8 @@ import com.clickit.luckytripassingment.base.BaseViewModel;
 import com.clickit.luckytripassingment.model.Rooms;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.Objects;
 
 import io.reactivex.android.schedulers.AndroidSchedulers;
@@ -32,6 +34,7 @@ public class RoomPickerViewModel extends BaseViewModel {
                 .doOnTerminate(() -> loader.setValue(false))
                 .subscribe(data -> {
                     loader.setValue(false);
+
                    roomAdapter.getValue().updateAdapter((ArrayList<Rooms>) data.getRooms());
                 }, error -> {
                     loader.setValue(false);
@@ -39,5 +42,6 @@ public class RoomPickerViewModel extends BaseViewModel {
                 });
 
     }
+
 
 }
